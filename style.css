@@ -1,85 +1,410 @@
-* {
-    margin: 0%;
-}
+/*/inicio/*/
 
-#fundo {
-    width: 100%;
-    background-image: url(fundo\ 1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    block-size: 110px;
-    margin: 0px;
-}
+* 
+    {
+        margin: 0%;
+    }
 
-table {
-    margin: 0px
-}
+#fundo
+    {
+        width: 100%;
+        background-image: url(fundo\ 1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        block-size: 80px;
+        margin: 0px;
+    }   
 
-td {
-    width: 25%;
-}
+/*/Cabeçario/*/
 
-#espaco {
-    width: 500px;
-}
+#Cabeca
+    {
+        background-color: rgba(58, 11, 99, 1);
+        margin-bottom: 40px;
+        margin-top: 30px;
+    }
 
-#Cabeca {
-    background-color: rgba(58, 11, 99, 1);
-}
+#logo 
+    {
+        margin-left: 200px;
+        width:190px;
+    }
 
-#logo {
-    margin-left: 200px;
-}
+/*/Parte inicial/*/
 
-#forms {
-    width: 100%;
+#forms
+    {
+        width: 400px;
+        margin-right: 0%;
+    }
 
-}
+#cotemigpng 
+    {
+        width: 500px;
+        margin-left:29%;
+        margin-top: 30px;
+    }
 
-#cotemigpng {
-    width: 80%;
-    text-align: center;
-}
+#matricula
+    {
+        width: 380px;
+        margin-left: 36%;
+        margin-bottom: 15px;
+    }
 
-#matricula {
-    width: 75%;
-    text-align: center;
-}
+    
+#numero
+    {
+        width: 300px;
+        margin-left: 42%;
+    }
 
-#google {
-    width: 250px;
-    text-align: center;
-}
+#google 
+    {
+        width: 200px;
+        margin-left:50%;
+    }
 
 /*Parte Rosa*/
-#Rosa {
-    background-color: #ff47cb;
-    height: 393px;
-    width: 100%;
-}
+#Rosa
+    {
+        background-color: #ff47cb;
+        height: 393px;
+        width: 100%;
+        margin: 0%;
+    }
+#Fonte1
+    {
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-family: Roboto, sans-serif;
+       
+        margin-bottom: 15px;
+    } 
+#Fonte2
+    {
+        font-family: Raleway, sans-serif;
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+        margin-bottom: 10px;
+    
+    }
 
-#alinhar {
-    width: 100px;
-}
+#Fonte3
+    {
+        text-align:justify;
+        font-family: Raleway, sans-serif;
+        color: rgb(255, 255, 255);
+    }
+
+#mina
+    {
+        margin-left: 200px;
+    }
+
+#Tamanho
+    {
+        width: 500px;
+    }
+
+#Tam
+    {
+        width: 300px;
+    }
+/*/ Parte verde/*/
+
+#green
+    {
+        background-color:#89f668;
+    }
+
+.verde
+    {
+        width:100%;
+        margin: 0%;
+    }
+
+.verde2
+    {
+        font-size: 18px;
+        font-family: Raleway, sans-serif;
+        color: rgb(102, 16, 131);
+    }
+
+.alinhar
+    {
+        width: 330px;
+        margin: 0%;
+    }
+
+.fundo3
+    {
+        margin-top: 50px;
+        width: 330px;
+        text-align: center;
+    }
+.iconefoto
+    {
+        width: 150px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+.verde_baixo
+    {
+        padding-bottom: 30px;
+    }
+
+#green
+    {
+        margin: 0%;
+    }
+
+/*/Parte Final/*/
+
+#Fim
+    {
+        background-color:#391265
+    }
+
+.fundo4
+    {
+        width: 400px;
+    }
+h1
+    {
+        margin-top: 20px;
+        text-align: center;
+        color: rgb(137, 246, 104);
+        font-size: 32px;
+        font-family: Raleway, sans-serif;
+        margin-bottom: 20px;
+    }
+
+h2
+    {
+        text-align: center;
+        color: rgb(137, 246, 104);
+        font-size: 24px;
+        font-family: Raleway, sans-serif;
+        margin-bottom: 15px;
+    }
+h3
+    {
+        color: rgb(137, 246, 104);
+        font-size: 18px;
+        font-family: Raleway, sans-serif;
+        margin-bottom: 10px;
+    }
+
+#lab
+    {
+        width: 455px;
+        height: auto;
+
+    }
+
+.alinhamentotxt
+    {
+        text-align: center;
+        color: rgb(137, 246, 104);
+        font-size: 24px;
+        font-family: Raleway, sans-serif;
+        margin-left: 50px;
+    }
+
+.alinhamentotxt2
+    {
+        color: rgb(137, 246, 104);
+        font-size: 18px;
+        font-family: Raleway, sans-serif;
+        margin-left: 50px;
+    }
+
+.txt
+    {
+        background-color: #591076;
+        justify-content: center;
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+    }    
+
+#btnmatricula
+    {
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom:50px ;
+    }
+
+a
+    {
+        color: white;
+        text-decoration: none;
+        font-family: Raleway, sans-serif;
+    }
+
+button
+    {
+        background-color: rgba(138, 77, 157, 1);
+        border-bottom-style: none;
+        border-radius: 11px;
+        font-size: 19px;
+        height: 50px; 
+        width: 300px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-left-style: none;
+    }
 
 
-#numero {
-    width: 60%;
-}
+/*/Rodapé/*/
 
-#txt{
-    margin: auto;
-    display: flex;
-    width: 60%;
-    color: aliceblue;
-}
-#txt div{
-    padding-left: 50px;
-    width: 90%;
-    text-align: center;
+#pezin
+    {
+        background-color:#391265
+    }
 
-}
+.rodape
+    {
+        width: 300px;
+    }
 
-.h4{
-    text-align: center;
+#google2
+    {
+        padding-left: 20%;
+        text-align: center;
+        width: 158px;
+    }
+
+u
+    {
+        padding-left: 15%;
+        color: white;
+        text-align: center;
+        font-size: 12px; 
+        font-family: Raleway, sans-serif;
+    }
+
+strong
+    {
+        text-align: start;
+        font-size: 16px;
+        color: white;
+        font-family: Raleway, sans-serif;
+    }
+
+.branquin
+    {
+        font-size: 14px;
+        color: white;
+        font-family: Raleway, sans-serif;
+    }
+
+
+
+
+/*/Fonte Roboto/*/
+    .roboto-thin {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+
+      .roboto-light {
+        font-family: "Roboto", sans-serif;
+        
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+
+      .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
+      .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+
+      .roboto-bold {
+        font-family: "Roboto", sans-serif;
+        
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+
+      .roboto-black {
+        font-family: "Roboto", sans-serif;
+        
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+
+      .roboto-thin-italic {
+        font-family: "Roboto", sans-serif;
+        
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+
+      .roboto-light-italic {
+        font-family: "Roboto", sans-serif;
+        
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+
+      .roboto-regular-italic {
+        font-family: "Roboto", sans-serif;
+        
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+
+      .roboto-medium-italic {
+        font-family: "Roboto", sans-serif;
+        
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+
+      .roboto-bold-italic {
+        font-family: "Roboto", sans-serif;
+        
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+
+      .roboto-black-italic {
+        font-family: "Roboto", sans-serif;
+        
+        font-weight: 900;
+        font-style: italic;
+      }
+      
+      /*/Fonte Raleway/*/
+
+.raleway-uniquifier 
+{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
